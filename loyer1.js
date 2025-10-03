@@ -219,7 +219,7 @@ document.getElementById('clear-form-btn').addEventListener('click', () => {
 });
 
 document.getElementById('copy-link-btn').addEventListener('click', () => {
-    const url = 'https://aymanefakihi.github.io/emsi-changement-de-campus/';
+    const url = 'https://connect.emsi.info/loyer1.html';
     const tempInput = document.createElement('textarea');
     document.body.appendChild(tempInput);
     tempInput.value = url;
