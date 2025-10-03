@@ -330,7 +330,7 @@ requestsList.addEventListener('click', async (e) => {
 
 document.getElementById('copy-link-btn').addEventListener('click', () => {
     // URL mise à jour pour echange2
-    const url = 'https://aymanefakihi.github.io/emsi-changement-de-campus/echange2.html';
+    const url = 'https://connect.emsi.info/echange2.html';
     const tempInput = document.createElement('textarea');
     document.body.appendChild(tempInput);
     tempInput.value = url;
