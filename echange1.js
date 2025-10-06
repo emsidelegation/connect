@@ -292,17 +292,17 @@ requestsList.addEventListener('click', async (e) => {
     }
 });
 
-document.getElementById('copy-link-btn').addEventListener('click', () => {
-    // Note: Mettre à jour l'URL si elle change
-    const url = 'https://connect.emsi.info/echange1.html';
-    const tempInput = document.createElement('textarea');
-    document.body.appendChild(tempInput);
-    tempInput.value = url;
-    tempInput.select();
-    document.execCommand('copy');
-    document.body.removeChild(tempInput);
-    showNotification("Lien du site copié !", 'success');
-});
+// document.getElementById('copy-link-btn').addEventListener('click', () => {
+//     // Note: Mettre à jour l'URL si elle change
+//     const url = 'https://connect.emsi.info/echange1.html';
+//     const tempInput = document.createElement('textarea');
+//     document.body.appendChild(tempInput);
+//     tempInput.value = url;
+//     tempInput.select();
+//     document.execCommand('copy');
+//     document.body.removeChild(tempInput);
+//     showNotification("Lien du site copié !", 'success');
+// });
 
 const setupRealtimeListener = () => {
     supabase.channel('public-changes')

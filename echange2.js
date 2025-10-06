@@ -328,17 +328,17 @@ requestsList.addEventListener('click', async (e) => {
     }
 });
 
-document.getElementById('copy-link-btn').addEventListener('click', () => {
-    // URL mise à jour pour echange2
-    const url = 'https://connect.emsi.info/echange2.html';
-    const tempInput = document.createElement('textarea');
-    document.body.appendChild(tempInput);
-    tempInput.value = url;
-    tempInput.select();
-    document.execCommand('copy');
-    document.body.removeChild(tempInput);
-    showNotification("Lien du site copié !", 'success');
-});
+// document.getElementById('copy-link-btn').addEventListener('click', () => {
+//     // URL mise à jour pour echange2
+//     const url = 'https://connect.emsi.info/echange2.html';
+//     const tempInput = document.createElement('textarea');
+//     document.body.appendChild(tempInput);
+//     tempInput.value = url;
+//     tempInput.select();
+//     document.execCommand('copy');
+//     document.body.removeChild(tempInput);
+//     showNotification("Lien du site copié !", 'success');
+// });
 
 // --- Logique temps réel et chargement initial (Adaptée) ---
 
