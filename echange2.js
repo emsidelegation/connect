@@ -39,6 +39,8 @@ const acknowledgeBtn = document.getElementById('acknowledge-btn');
 const notificationPopUp = document.getElementById('notification-pop-up');
 const notificationIcon = document.getElementById('notification-icon');
 const notificationMessage = document.getElementById('notification-message');
+
+// Les addEventListener pour les champs de recherche et de soumission sont placés APRÈS la déclaration de filterRequests plus bas dans le fichier.
     
 let allRequests = [];
 
